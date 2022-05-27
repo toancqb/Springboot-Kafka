@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @Slf4j
-@RequestMapping(produces = "application/json; charset=UTF-8", value = "/v1/jobcontroller")
+@RequestMapping(produces = "application/json; charset=UTF-8", value = "/api/v1/jobcontroller")
 @RequiredArgsConstructor
 public class JobController {
 
